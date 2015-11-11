@@ -11,7 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'active_pdftk', github: "tcocca/active_pdftk", branch: "master"
+gem 'pdf-forms'
+gem 'combine_pdf'
 gem 'bootstrap-sass', '~> 3.3.5'
 
 gem 'pry', '~> 0.9.11'

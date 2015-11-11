@@ -3,7 +3,6 @@ module ApplicationHelper
 		str = "{\n" 
 		str << "\t'Name' => 'John Doe',\n"
 		str << "\t'Address' => '12 High Street',\n"
-		str << "\t'Address' => '12 High Street',\n"
 		str << "\t'Phone Number' => '020 8777 8888',\n"
 		str << "\t'Email' => 'john.doe@gmail.com',\n"
 		str << "\t'Mothers Name' => 'Mary Doe',\n"

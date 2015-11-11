@@ -6,7 +6,7 @@ class Document
 	attr_accessor :pdf_file, :pdf_fields_text
 
 	def generate_filled_pdf
-		begin
+		# begin
 			pdftk = PdfForms.new('pdftk')
 
 			if pdf_fields.is_a?(Hash)
@@ -23,9 +23,9 @@ class Document
 				pdf_combiner.save self.pdf_file.path.gsub(".pdf","_combined.pdf")
 				self.pdf_file.path.gsub(".pdf","_combined.pdf")
 			end
-		rescue
-			false
-		end
+		# rescue
+			# false
+		# end
 	end
 
 	def pdf_fields

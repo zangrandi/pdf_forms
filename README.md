@@ -27,14 +27,3 @@ Mothers Name
 Fathers Name
 Occupation
 Annual
-
-{ 
-			'Name' => 'John Doe',
-			'Address' => '12 High Street',
-			'Phone Number' => '020 8777 8888',
-			'Email' => 'john.doe@gmail.com',
-			'Mothers Name' => 'Mary Doe',
-			'Fathers Name' => 'Bill Doe',
-			'Occupation' => 'Developer',
-			'Annual Income' => '$30,000 USD'
-		}
